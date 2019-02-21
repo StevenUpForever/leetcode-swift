@@ -12,6 +12,7 @@
 		49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */; };
 		49C64C86221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */; };
 		49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C87221F2F5F000B8864 /* Q733FloodFill.swift */; };
+		49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q22GenerateParentheses.swift; sourceTree = "<group>"; };
 		49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q560SubarraySumEqualsK.swift; sourceTree = "<group>"; };
 		49C64C87221F2F5F000B8864 /* Q733FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q733FloodFill.swift; sourceTree = "<group>"; };
+		49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q332ReconstructItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				49C64C80221E9BB2000B8864 /* all_subsets */,
 				49C64C7E221E93DF000B8864 /* Q79WordSearch.swift */,
 				49C64C87221F2F5F000B8864 /* Q733FloodFill.swift */,
+				49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */,
 			);
 			path = depth_first_search;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				49C64C77221E9391000B8864 /* main.swift in Sources */,
 				49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */,
 				49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */,
+				49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
 				49C64C86221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift in Sources */,
 			);

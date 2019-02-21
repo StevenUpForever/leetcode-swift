@@ -8,6 +8,6 @@
 
 import Foundation
 
-let obj = Q733FloodFill()
+let obj = Q332ReconstructItinerary()
 
-obj.floodFill([[0,0,0],[0,1,1]], 1, 1, 1)
+print(obj.findItinerary([["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]]))
