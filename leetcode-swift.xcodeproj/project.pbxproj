@@ -10,6 +10,7 @@
 		49C64C77221E9391000B8864 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C76221E9391000B8864 /* main.swift */; };
 		49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C7E221E93DF000B8864 /* Q79WordSearch.swift */; };
 		49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */; };
+		49C64C86221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		49C64C76221E9391000B8864 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49C64C7E221E93DF000B8864 /* Q79WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q79WordSearch.swift; sourceTree = "<group>"; };
 		49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q22GenerateParentheses.swift; sourceTree = "<group>"; };
+		49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q560SubarraySumEqualsK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		49C64C75221E9391000B8864 /* leetcode-swift */ = {
 			isa = PBXGroup;
 			children = (
+				49C64C83221E9DB8000B8864 /* array */,
 				49C64C7D221E93CA000B8864 /* depth_first_search */,
 				49C64C76221E9391000B8864 /* main.swift */,
 			);
@@ -82,6 +85,22 @@
 				49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */,
 			);
 			path = all_subsets;
+			sourceTree = "<group>";
+		};
+		49C64C83221E9DB8000B8864 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				49C64C84221E9DC7000B8864 /* pre_sum */,
+			);
+			path = array;
+			sourceTree = "<group>";
+		};
+		49C64C84221E9DC7000B8864 /* pre_sum */ = {
+			isa = PBXGroup;
+			children = (
+				49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */,
+			);
+			path = pre_sum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +163,7 @@
 				49C64C77221E9391000B8864 /* main.swift in Sources */,
 				49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
+				49C64C86221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

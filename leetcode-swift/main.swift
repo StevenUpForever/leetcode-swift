@@ -8,8 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
-let a: Character = "a"
-let str: String = "a"
-
-print(str[str.index(str.startIndex, offsetBy: 0)] == a)
+let obj = Q560SubarraySumEqualsK()
+print(obj.subarraySum([0,0,0,0,0,0,0,0,0,0], 0))
