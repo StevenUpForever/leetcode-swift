@@ -87,7 +87,6 @@
 				49C64C7E221E93DF000B8864 /* Q79WordSearch.swift */,
 				49C64C87221F2F5F000B8864 /* Q733FloodFill.swift */,
 				49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */,
-				49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */,
 			);
 			path = depth_first_search;
 			sourceTree = "<group>";
@@ -127,6 +126,7 @@
 		49C64C8C221F3FF1000B8864 /* post_order */ = {
 			isa = PBXGroup;
 			children = (
+				49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */,
 			);
 			path = post_order;
 			sourceTree = "<group>";
