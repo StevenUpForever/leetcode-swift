@@ -19,6 +19,7 @@
 		AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */; };
 		AF9C058624D14F6200DB125A /* Q169MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */; };
 		AF9C058924D1532C00DB125A /* Q1TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058824D1532C00DB125A /* Q1TwoSum.swift */; };
+		AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q169MajorityElement.swift; sourceTree = "<group>"; };
 		AF9C058824D1532C00DB125A /* Q1TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1TwoSum.swift; sourceTree = "<group>"; };
+		AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q523ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */,
+				AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */,
 			);
 			path = pre_sum;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			files = (
 				49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */,
 				AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */,
+				AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */,
 				49C64C77221E9391000B8864 /* main.swift in Sources */,
 				49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */,
 				49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */,
