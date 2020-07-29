@@ -15,6 +15,7 @@
 		49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */; };
 		49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C8E221F4021000B8864 /* TreeNode.swift */; };
 		49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */; };
+		AF9C058024D1441300DB125A /* Q57InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q332ReconstructItinerary.swift; sourceTree = "<group>"; };
 		49C64C8E221F4021000B8864 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q236LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
+		AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q57InsertInterval.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */,
+				AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */,
 			);
 			path = interval;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */,
 				49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */,
 				49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */,
+				AF9C058024D1441300DB125A /* Q57InsertInterval.swift in Sources */,
 				AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */,
 				49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
