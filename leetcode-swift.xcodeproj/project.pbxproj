@@ -15,6 +15,7 @@
 		49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */; };
 		49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C8E221F4021000B8864 /* TreeNode.swift */; };
 		49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */; };
+		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q332ReconstructItinerary.swift; sourceTree = "<group>"; };
 		49C64C8E221F4021000B8864 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q236LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
+		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		49C64C83221E9DB8000B8864 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				AFC2881B24C1659100FFD34C /* interval */,
 				49C64C84221E9DC7000B8864 /* pre_sum */,
 			);
 			path = array;
@@ -139,6 +142,14 @@
 			path = public_class;
 			sourceTree = "<group>";
 		};
+		AFC2881B24C1659100FFD34C /* interval */ = {
+			isa = PBXGroup;
+			children = (
+				AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */,
+			);
+			path = interval;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +182,7 @@
 				TargetAttributes = {
 					49C64C72221E9391000B8864 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -201,6 +213,7 @@
 				49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */,
 				49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */,
 				49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */,
+				AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */,
 				49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
 				49C64C86221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift in Sources */,
@@ -329,9 +342,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CJ3RV73778;
+				DEVELOPMENT_TEAM = 78A73LK6Q3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -339,9 +352,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CJ3RV73778;
+				DEVELOPMENT_TEAM = 78A73LK6Q3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
