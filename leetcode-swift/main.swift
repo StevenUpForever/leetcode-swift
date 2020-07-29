@@ -8,6 +8,5 @@
 
 import Foundation
 
-let obj = Q332ReconstructItinerary()
-
-print(obj.findItinerary([["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]]))
+let obj = Q14LongestCommonPrefix()
+print(obj.longestCommonPrefix(["a"]))

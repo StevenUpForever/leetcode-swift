@@ -16,6 +16,7 @@
 		49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C8E221F4021000B8864 /* TreeNode.swift */; };
 		49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */; };
 		AF9C058024D1441300DB125A /* Q57InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */; };
+		AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		49C64C8E221F4021000B8864 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		49C64C90221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q236LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
 		AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q57InsertInterval.swift; sourceTree = "<group>"; };
+		AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 		49C64C83221E9DB8000B8864 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				AF9C058124D1488F00DB125A /* k_merge */,
 				AFC2881B24C1659100FFD34C /* interval */,
 				49C64C84221E9DC7000B8864 /* pre_sum */,
 			);
@@ -142,6 +145,14 @@
 				49C64C8E221F4021000B8864 /* TreeNode.swift */,
 			);
 			path = public_class;
+			sourceTree = "<group>";
+		};
+		AF9C058124D1488F00DB125A /* k_merge */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */,
+			);
+			path = k_merge;
 			sourceTree = "<group>";
 		};
 		AFC2881B24C1659100FFD34C /* interval */ = {
@@ -212,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */,
+				AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */,
 				49C64C77221E9391000B8864 /* main.swift in Sources */,
 				49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */,
 				49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */,
