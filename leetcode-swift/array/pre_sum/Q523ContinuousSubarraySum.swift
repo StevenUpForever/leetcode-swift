@@ -71,4 +71,38 @@ class Q523ContinuousSubarraySum: NSObject {
         }
         return false
     }
+    
+    /*
+    Solution 2:
+    From leetcode
+    Key point is: in a presum array, if presum[0, i] % k == presum[0, j] % k, which i < j, that means
+    presum[i, j] % k == 0, the mode value must in 0, i scope
+
+    So we could put just mode value in a hashMap, due to not know how many multiple by k, but mode value
+    is fixed
+    for current sum % k if any mode value is appeared before, means we found i, j just check if j - i > 1
+
+    Time: O(n)
+    Space: O(min(n, k))
+     */
+    
+    func checkSubarraySum_2(_ nums: [Int], _ k: Int) -> Bool {
+        var sum = 0
+        var map: [Int: Int] = [:]
+        map[0] = -1
+        for (index, num) in nums.enumerated() {
+            sum += num
+            if k != 0 {
+                sum %= k
+            }
+            if let val = map[sum] {
+                if index - val > 1 {
+                    return true
+                }
+            } else {
+                map[sum] = index
+            }
+        }
+        return false
+    }
 }
