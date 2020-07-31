@@ -21,6 +21,7 @@
 		AF9C058924D1532C00DB125A /* Q1TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058824D1532C00DB125A /* Q1TwoSum.swift */; };
 		AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */; };
 		AF9C059324D3E1A100DB125A /* Q347TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */; };
+		AF9C059724D3E81B00DB125A /* Q189RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059624D3E81B00DB125A /* Q189RotateArray.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		AF9C058824D1532C00DB125A /* Q1TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1TwoSum.swift; sourceTree = "<group>"; };
 		AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q523ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q347TopKFrequentElements.swift; sourceTree = "<group>"; };
+		AF9C059624D3E81B00DB125A /* Q189RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q189RotateArray.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 		49C64C83221E9DB8000B8864 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				AF9C059524D3E80D00DB125A /* reverse */,
 				AF9C059124D3E11D00DB125A /* priority_queue */,
 				AF9C058724D1531C00DB125A /* n_sum */,
 				AF9C058424D14F5400DB125A /* majority */,
@@ -191,6 +194,14 @@
 			path = priority_queue;
 			sourceTree = "<group>";
 		};
+		AF9C059524D3E80D00DB125A /* reverse */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C059624D3E81B00DB125A /* Q189RotateArray.swift */,
+			);
+			path = reverse;
+			sourceTree = "<group>";
+		};
 		AFC2881B24C1659100FFD34C /* interval */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */,
+				AF9C059724D3E81B00DB125A /* Q189RotateArray.swift in Sources */,
 				AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */,
 				AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */,
 				AF9C059324D3E1A100DB125A /* Q347TopKFrequentElements.swift in Sources */,
