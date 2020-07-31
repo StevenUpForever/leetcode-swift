@@ -23,6 +23,7 @@
 		AF9C059324D3E1A100DB125A /* Q347TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */; };
 		AF9C059724D3E81B00DB125A /* Q189RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059624D3E81B00DB125A /* Q189RotateArray.swift */; };
 		AF9C059C24D3EC4300DB125A /* Q643MaximumAverageSubarrayI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059B24D3EC4300DB125A /* Q643MaximumAverageSubarrayI.swift */; };
+		AF9C059F24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059E24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q347TopKFrequentElements.swift; sourceTree = "<group>"; };
 		AF9C059624D3E81B00DB125A /* Q189RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q189RotateArray.swift; sourceTree = "<group>"; };
 		AF9C059B24D3EC4300DB125A /* Q643MaximumAverageSubarrayI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q643MaximumAverageSubarrayI.swift; sourceTree = "<group>"; };
+		AF9C059E24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q26RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 		49C64C83221E9DB8000B8864 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				AF9C059D24D3F07D00DB125A /* sort */,
 				AF9C059824D3EC0C00DB125A /* sliding_window */,
 				AF9C059524D3E80D00DB125A /* reverse */,
 				AF9C059124D3E11D00DB125A /* priority_queue */,
@@ -213,6 +216,14 @@
 			path = sliding_window;
 			sourceTree = "<group>";
 		};
+		AF9C059D24D3F07D00DB125A /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C059E24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
 		AFC2881B24C1659100FFD34C /* interval */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +305,7 @@
 				AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */,
 				49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
+				AF9C059F24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift in Sources */,
 				AF9C059C24D3EC4300DB125A /* Q643MaximumAverageSubarrayI.swift in Sources */,
 				AF9C058624D14F6200DB125A /* Q169MajorityElement.swift in Sources */,
 				49C64C86221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift in Sources */,
