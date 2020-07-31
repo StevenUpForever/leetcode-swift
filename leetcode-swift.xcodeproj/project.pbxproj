@@ -20,6 +20,7 @@
 		AF9C058624D14F6200DB125A /* Q169MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */; };
 		AF9C058924D1532C00DB125A /* Q1TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058824D1532C00DB125A /* Q1TwoSum.swift */; };
 		AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */; };
+		AF9C059324D3E1A100DB125A /* Q347TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q169MajorityElement.swift; sourceTree = "<group>"; };
 		AF9C058824D1532C00DB125A /* Q1TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1TwoSum.swift; sourceTree = "<group>"; };
 		AF9C058B24D1575900DB125A /* Q523ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q523ContinuousSubarraySum.swift; sourceTree = "<group>"; };
+		AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q347TopKFrequentElements.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 		49C64C83221E9DB8000B8864 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				AF9C059124D3E11D00DB125A /* priority_queue */,
 				AF9C058724D1531C00DB125A /* n_sum */,
 				AF9C058424D14F5400DB125A /* majority */,
 				AF9C058124D1488F00DB125A /* k_merge */,
@@ -178,6 +181,14 @@
 				AF9C058824D1532C00DB125A /* Q1TwoSum.swift */,
 			);
 			path = n_sum;
+			sourceTree = "<group>";
+		};
+		AF9C059124D3E11D00DB125A /* priority_queue */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C059224D3E1A100DB125A /* Q347TopKFrequentElements.swift */,
+			);
+			path = priority_queue;
 			sourceTree = "<group>";
 		};
 		AFC2881B24C1659100FFD34C /* interval */ = {
@@ -250,6 +261,7 @@
 				49C64C8F221F4021000B8864 /* TreeNode.swift in Sources */,
 				AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */,
 				AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */,
+				AF9C059324D3E1A100DB125A /* Q347TopKFrequentElements.swift in Sources */,
 				49C64C77221E9391000B8864 /* main.swift in Sources */,
 				49C64C88221F2F5F000B8864 /* Q733FloodFill.swift in Sources */,
 				49C64C91221F7928000B8864 /* Q236LowestCommonAncestorOfABinaryTree.swift in Sources */,
