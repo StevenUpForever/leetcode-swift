@@ -8,5 +8,4 @@
 
 import Foundation
 
-let obj = Q14LongestCommonPrefix()
-print(obj.longestCommonPrefix(["a"]))
+Q643MaximumAverageSubarrayI().findMaxAverage([5], 1)
