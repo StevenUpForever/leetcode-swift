@@ -26,6 +26,7 @@
 		AF9C059F24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C059E24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift */; };
 		AF9C05A124D3F3CA00DB125A /* Q121BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05A024D3F3CA00DB125A /* Q121BestTimeToBuyAndSellStock.swift */; };
 		AF9C05A424D3F52F00DB125A /* Q278FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05A324D3F52F00DB125A /* Q278FirstBadVersion.swift */; };
+		AF9C05A724D538BA00DB125A /* Q190ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05A624D538BA00DB125A /* Q190ReverseBits.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		AF9C059E24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q26RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 		AF9C05A024D3F3CA00DB125A /* Q121BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q121BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		AF9C05A324D3F52F00DB125A /* Q278FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q278FirstBadVersion.swift; sourceTree = "<group>"; };
+		AF9C05A624D538BA00DB125A /* Q190ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q190ReverseBits.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 		49C64C75221E9391000B8864 /* leetcode-swift */ = {
 			isa = PBXGroup;
 			children = (
+				AF9C05A524D538B000DB125A /* bit_operation */,
 				AF9C05A224D3F51C00DB125A /* binary_search */,
 				49C64C8D221F400F000B8864 /* public_class */,
 				49C64C83221E9DB8000B8864 /* array */,
@@ -238,6 +241,14 @@
 			path = binary_search;
 			sourceTree = "<group>";
 		};
+		AF9C05A524D538B000DB125A /* bit_operation */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C05A624D538BA00DB125A /* Q190ReverseBits.swift */,
+			);
+			path = bit_operation;
+			sourceTree = "<group>";
+		};
 		AFC2881B24C1659100FFD34C /* interval */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,7 +285,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = com.cj;
 				TargetAttributes = {
 					49C64C72221E9391000B8864 = {
@@ -316,6 +327,7 @@
 				49C64C82221E9BC3000B8864 /* Q22GenerateParentheses.swift in Sources */,
 				AF9C058924D1532C00DB125A /* Q1TwoSum.swift in Sources */,
 				AF9C058024D1441300DB125A /* Q57InsertInterval.swift in Sources */,
+				AF9C05A724D538BA00DB125A /* Q190ReverseBits.swift in Sources */,
 				AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */,
 				49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
@@ -449,6 +461,7 @@
 		49C64C7B221E9391000B8864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78A73LK6Q3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +472,7 @@
 		49C64C7C221E9391000B8864 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78A73LK6Q3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
