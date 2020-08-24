@@ -30,6 +30,7 @@
 		AF9C05AA24D53F4800DB125A /* Q102BinaryTreeLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05A924D53F4800DB125A /* Q102BinaryTreeLevelOrderTraversal.swift */; };
 		AF9C05AD24D541CA00DB125A /* Q146LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05AC24D541CA00DB125A /* Q146LRUCache.swift */; };
 		AF9C05B124D548A000DB125A /* Q46Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05B024D548A000DB125A /* Q46Permutations.swift */; };
+		AF9C05B424D5E15100DB125A /* Q329LongestIncreasingPathInAMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C05B324D5E15100DB125A /* Q329LongestIncreasingPathInAMatrix.swift */; };
 		AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		AF9C05A924D53F4800DB125A /* Q102BinaryTreeLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q102BinaryTreeLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		AF9C05AC24D541CA00DB125A /* Q146LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q146LRUCache.swift; sourceTree = "<group>"; };
 		AF9C05B024D548A000DB125A /* Q46Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q46Permutations.swift; sourceTree = "<group>"; };
+		AF9C05B324D5E15100DB125A /* Q329LongestIncreasingPathInAMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q329LongestIncreasingPathInAMatrix.swift; sourceTree = "<group>"; };
 		AFC2881C24C165B600FFD34C /* Q56MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56MergeIntervals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 		49C64C7D221E93CA000B8864 /* depth_first_search */ = {
 			isa = PBXGroup;
 			children = (
+				AF9C05B224D5E13C00DB125A /* matrix */,
 				AF9C05AF24D5488D00DB125A /* all_permutations */,
 				49C64C80221E9BB2000B8864 /* all_subsets */,
 				49C64C7E221E93DF000B8864 /* Q79WordSearch.swift */,
@@ -282,6 +285,14 @@
 			path = all_permutations;
 			sourceTree = "<group>";
 		};
+		AF9C05B224D5E13C00DB125A /* matrix */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C05B324D5E15100DB125A /* Q329LongestIncreasingPathInAMatrix.swift */,
+			);
+			path = matrix;
+			sourceTree = "<group>";
+		};
 		AFC2881B24C1659100FFD34C /* interval */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +377,7 @@
 				AFC2881D24C165B600FFD34C /* Q56MergeIntervals.swift in Sources */,
 				49C64C8A221F36AD000B8864 /* Q332ReconstructItinerary.swift in Sources */,
 				49C64C7F221E93DF000B8864 /* Q79WordSearch.swift in Sources */,
+				AF9C05B424D5E15100DB125A /* Q329LongestIncreasingPathInAMatrix.swift in Sources */,
 				AF9C05A124D3F3CA00DB125A /* Q121BestTimeToBuyAndSellStock.swift in Sources */,
 				AF9C05A424D3F52F00DB125A /* Q278FirstBadVersion.swift in Sources */,
 				AF9C059F24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift in Sources */,
