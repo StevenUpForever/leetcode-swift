@@ -51,7 +51,7 @@
 		49C64C73221E9391000B8864 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C64C76221E9391000B8864 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49C64C7E221E93DF000B8864 /* Q79WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q79WordSearch.swift; sourceTree = "<group>"; };
-		49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q22GenerateParentheses.swift; sourceTree = "<group>"; };
+		49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Q22GenerateParentheses.swift; path = ../all_subsets/Q22GenerateParentheses.swift; sourceTree = "<group>"; };
 		49C64C85221E9DE6000B8864 /* Q560SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q560SubarraySumEqualsK.swift; sourceTree = "<group>"; };
 		49C64C87221F2F5F000B8864 /* Q733FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q733FloodFill.swift; sourceTree = "<group>"; };
 		49C64C89221F36AD000B8864 /* Q332ReconstructItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q332ReconstructItinerary.swift; sourceTree = "<group>"; };
@@ -123,6 +123,7 @@
 		49C64C7D221E93CA000B8864 /* depth_first_search */ = {
 			isa = PBXGroup;
 			children = (
+				AF48478124F4753400CB23DE /* parentheses */,
 				AF48477E24F468F000CB23DE /* ninety_nine_cents */,
 				AF9C05B224D5E13C00DB125A /* matrix */,
 				AF9C05AF24D5488D00DB125A /* all_permutations */,
@@ -137,7 +138,6 @@
 		49C64C80221E9BB2000B8864 /* all_subsets */ = {
 			isa = PBXGroup;
 			children = (
-				49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */,
 			);
 			path = all_subsets;
 			sourceTree = "<group>";
@@ -198,6 +198,14 @@
 				AF48477F24F4690F00CB23DE /* Q39CombinationSum.swift */,
 			);
 			path = ninety_nine_cents;
+			sourceTree = "<group>";
+		};
+		AF48478124F4753400CB23DE /* parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				49C64C81221E9BC3000B8864 /* Q22GenerateParentheses.swift */,
+			);
+			path = parentheses;
 			sourceTree = "<group>";
 		};
 		AF9C058124D1488F00DB125A /* k_merge */ = {

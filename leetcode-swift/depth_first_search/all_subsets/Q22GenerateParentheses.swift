@@ -66,7 +66,7 @@ class Q22GenerateParentheses: NSObject {
         return res
     }
     
-    func dfs(_ n: Int, l: Int, r: Int, str: String, strs: inout [String]) {
+    private func dfs(_ n: Int, l: Int, r: Int, str: String, strs: inout [String]) {
         if (l == n && r == n) {
             strs.append(str)
             return
