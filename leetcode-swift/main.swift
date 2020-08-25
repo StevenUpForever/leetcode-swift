@@ -8,4 +8,4 @@
 
 import Foundation
 
-print(Q91DecodeWays().numDecodings("0"))
+print(Q44WildcardMatching().isMatch("aa", "a"))
