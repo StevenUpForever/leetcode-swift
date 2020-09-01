@@ -20,6 +20,7 @@
 		AF2936A624FDFE5A009B6F9E /* Q55JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2936A524FDFE5A009B6F9E /* Q55JumpGame.swift */; };
 		AF2936A924FE041F009B6F9E /* Q2AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2936A824FE041F009B6F9E /* Q2AddTwoNumbers.swift */; };
 		AF2936AB24FE0452009B6F9E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2936AA24FE0452009B6F9E /* ListNode.swift */; };
+		AF2936AD24FE0705009B6F9E /* Q237DeleteNodeInALinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2936AC24FE0705009B6F9E /* Q237DeleteNodeInALinkedList.swift */; };
 		AF48478024F4691000CB23DE /* Q39CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48477F24F4690F00CB23DE /* Q39CombinationSum.swift */; };
 		AF48478524F477C800CB23DE /* Q17LetterCombinationsOfAPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48478424F477C800CB23DE /* Q17LetterCombinationsOfAPhoneNumber.swift */; };
 		AF48478924F4841800CB23DE /* Q91DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48478824F4841800CB23DE /* Q91DecodeWays.swift */; };
@@ -69,6 +70,7 @@
 		AF2936A524FDFE5A009B6F9E /* Q55JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q55JumpGame.swift; sourceTree = "<group>"; };
 		AF2936A824FE041F009B6F9E /* Q2AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2AddTwoNumbers.swift; sourceTree = "<group>"; };
 		AF2936AA24FE0452009B6F9E /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		AF2936AC24FE0705009B6F9E /* Q237DeleteNodeInALinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q237DeleteNodeInALinkedList.swift; sourceTree = "<group>"; };
 		AF48477F24F4690F00CB23DE /* Q39CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q39CombinationSum.swift; sourceTree = "<group>"; };
 		AF48478424F477C800CB23DE /* Q17LetterCombinationsOfAPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q17LetterCombinationsOfAPhoneNumber.swift; sourceTree = "<group>"; };
 		AF48478824F4841800CB23DE /* Q91DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q91DecodeWays.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				AF2936A824FE041F009B6F9E /* Q2AddTwoNumbers.swift */,
+				AF2936AC24FE0705009B6F9E /* Q237DeleteNodeInALinkedList.swift */,
 			);
 			path = linkedlist;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				AF9C058C24D1575900DB125A /* Q523ContinuousSubarraySum.swift in Sources */,
 				AF9C059324D3E1A100DB125A /* Q347TopKFrequentElements.swift in Sources */,
 				AF2936A324F4D91C009B6F9E /* Q520DetectCapital.swift in Sources */,
+				AF2936AD24FE0705009B6F9E /* Q237DeleteNodeInALinkedList.swift in Sources */,
 				AF48478024F4691000CB23DE /* Q39CombinationSum.swift in Sources */,
 				AF9C05AD24D541CA00DB125A /* Q146LRUCache.swift in Sources */,
 				AF9C05AA24D53F4800DB125A /* Q102BinaryTreeLevelOrderTraversal.swift in Sources */,
