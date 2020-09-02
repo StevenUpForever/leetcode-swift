@@ -8,4 +8,4 @@
 
 import Foundation
 
-print(Q44WildcardMatching().isMatch("aa", "a"))
+print(Q242ValidAnagram.init().isAnagram("anagram", "nagaram"))
