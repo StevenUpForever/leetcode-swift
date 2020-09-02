@@ -8,4 +8,4 @@
 
 import Foundation
 
-print(Q242ValidAnagram.init().isAnagram("anagram", "nagaram"))
+print(Q125ValidPalindrome().isPalindrome("0P"))
