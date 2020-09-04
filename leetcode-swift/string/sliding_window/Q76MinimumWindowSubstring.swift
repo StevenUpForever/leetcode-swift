@@ -48,44 +48,37 @@ class Q76MinimumWindowSubstring: NSObject {
      */
     
     func minWindow(_ s: String, _ t: String) -> String {
-        if s.isEmpty || t.isEmpty || s.count < t.count {
-            return ""
-        }
         var map = [Character: Int]()
         for char in t {
             map[char] = (map[char] ?? 0) + 1
         }
         let arr = Array(s)
-        var count = 0, len = Int.max, left = 0, right = 0, temp = 0
-        for index in 0 ..< arr.count {
-            let char = arr[index]
-            if let val = map[char] {
-                map[char] = val - 1
-                if map[char] == 0 {
-                    count += 1
+        var count = map.count, right = 0, left = 0, tempLeft = 0, len = Int.max
+        for i in 0 ..< arr.count {
+            let curChar = arr[i]
+            if let val = map[curChar] {
+                map[curChar] = val - 1
+                if val - 1 == 0 {
+                    count -= 1
                 }
             }
-            if count == map.count && len > index - temp + 1 {
-                len = index - temp + 1
-                right = index
-                // don't need update left since next will try to reduce the valid string size to find min size, update left at that time
-            }
-            while count == map.count {
-                let char = arr[temp]
-                if let val = map[char] {
-                    map[char] = val + 1
-                    if val + 1 > 0 {
-                        count -= 1
+            while count == 0 {
+                // Update minimum length and left/right before move tempLeft, to avoid impact from tempLeft went over the first valid char, that makes count > 0
+                if i - tempLeft + 1 < len {
+                    len = i - tempLeft + 1
+                    left = tempLeft
+                    right = i
+                }
+                let moveChar = arr[tempLeft]
+                if let val = map[moveChar] {
+                    map[moveChar] = val + 1
+                    if val == 0 {
+                        count += 1
                     }
                 }
-                if len > index - temp + 1 {
-                    len = index - temp + 1
-                    left = temp
-                    right = index
-                }
-                temp += 1
+                tempLeft += 1
             }
         }
-        return len == Int.max ? "" : String(arr[left ... right])
+        return len > s.count ? "" : String(arr[left...right])
     }
 }
