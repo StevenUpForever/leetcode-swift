@@ -30,6 +30,7 @@
 		AF48478524F477C800CB23DE /* Q17LetterCombinationsOfAPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48478424F477C800CB23DE /* Q17LetterCombinationsOfAPhoneNumber.swift */; };
 		AF48478924F4841800CB23DE /* Q91DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48478824F4841800CB23DE /* Q91DecodeWays.swift */; };
 		AF97828F2501EAD300C8C118 /* Q344ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97828E2501EAD300C8C118 /* Q344ReverseString.swift */; };
+		AF9782912501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9782902501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift */; };
 		AF9C058024D1441300DB125A /* Q57InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */; };
 		AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */; };
 		AF9C058624D14F6200DB125A /* Q169MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */; };
@@ -86,6 +87,7 @@
 		AF48478424F477C800CB23DE /* Q17LetterCombinationsOfAPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q17LetterCombinationsOfAPhoneNumber.swift; sourceTree = "<group>"; };
 		AF48478824F4841800CB23DE /* Q91DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q91DecodeWays.swift; sourceTree = "<group>"; };
 		AF97828E2501EAD300C8C118 /* Q344ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q344ReverseString.swift; sourceTree = "<group>"; };
+		AF9782902501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q345ReverseVowelsOfAString.swift; sourceTree = "<group>"; };
 		AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q57InsertInterval.swift; sourceTree = "<group>"; };
 		AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q169MajorityElement.swift; sourceTree = "<group>"; };
@@ -334,6 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				AF97828E2501EAD300C8C118 /* Q344ReverseString.swift */,
+				AF9782902501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift */,
 			);
 			path = reverse;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				AF9C05B424D5E15100DB125A /* Q329LongestIncreasingPathInAMatrix.swift in Sources */,
 				AF9C05A124D3F3CA00DB125A /* Q121BestTimeToBuyAndSellStock.swift in Sources */,
 				AF9C05A424D3F52F00DB125A /* Q278FirstBadVersion.swift in Sources */,
+				AF9782912501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift in Sources */,
 				AF9C059F24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift in Sources */,
 				AF2936B324FE1C39009B6F9E /* Q678ValidParenthesisString.swift in Sources */,
 				AF9C059C24D3EC4300DB125A /* Q643MaximumAverageSubarrayI.swift in Sources */,
