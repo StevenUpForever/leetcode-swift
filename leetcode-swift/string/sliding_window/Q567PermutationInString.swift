@@ -81,6 +81,14 @@ class Q567PermutationInString: NSObject {
         return false
     }
 
+    /*
+    Solution 2:
+    sliding window, filter by int[26]
+
+    Time: O(m + n)
+    Space: O(1)
+     */
+
     func checkInclusion2(_ s1: String, _ s2: String) -> Bool {
         if s2.count < s1.count { return false }
         var map: [Character : Int] = [ : ]
