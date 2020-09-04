@@ -80,4 +80,27 @@ class Q567PermutationInString: NSObject {
         }
         return false
     }
+
+    func checkInclusion2(_ s1: String, _ s2: String) -> Bool {
+        if s2.count < s1.count { return false }
+        var map: [Character : Int] = [ : ]
+        let s1 = Array(s1), s2 = Array(s2), len = s1.count
+        var matchArr = Array(repeating:0, count:26)
+        var runningArr = Array(repeating:0, count:26)
+        for (i,c) in "abcdefghijklmnopqrstuvwxyz".enumerated() {
+            map[c] = i
+        }
+        for i in 0..<s1.count {
+            matchArr[map[s1[i]]!] += 1
+            runningArr[map[s2[i]]!] += 1
+        }
+        if matchArr == runningArr { return true }
+        // Compare from s1.length to save time
+        for i in len..<s2.count {
+            runningArr[map[s2[i]]!] += 1
+            runningArr[map[s2[i-len]]!] -= 1
+            if matchArr == runningArr { return true }
+        }
+        return false
+    }
 }
