@@ -8,4 +8,4 @@
 
 import Foundation
 
-print(Q125ValidPalindrome().isPalindrome("0P"))
+print(Q76MinimumWindowSubstring().minWindow("aa", "aa"))
