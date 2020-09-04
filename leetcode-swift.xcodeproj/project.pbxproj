@@ -32,6 +32,7 @@
 		AF97828F2501EAD300C8C118 /* Q344ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97828E2501EAD300C8C118 /* Q344ReverseString.swift */; };
 		AF9782912501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9782902501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift */; };
 		AF9782942501EF6300C8C118 /* Q76MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9782932501EF6300C8C118 /* Q76MinimumWindowSubstring.swift */; };
+		AF97829625020E0900C8C118 /* Q567PermutationInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97829525020E0900C8C118 /* Q567PermutationInString.swift */; };
 		AF9C058024D1441300DB125A /* Q57InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */; };
 		AF9C058324D148AA00DB125A /* Q14LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */; };
 		AF9C058624D14F6200DB125A /* Q169MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */; };
@@ -90,6 +91,7 @@
 		AF97828E2501EAD300C8C118 /* Q344ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q344ReverseString.swift; sourceTree = "<group>"; };
 		AF9782902501EC5400C8C118 /* Q345ReverseVowelsOfAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q345ReverseVowelsOfAString.swift; sourceTree = "<group>"; };
 		AF9782932501EF6300C8C118 /* Q76MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q76MinimumWindowSubstring.swift; sourceTree = "<group>"; };
+		AF97829525020E0900C8C118 /* Q567PermutationInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q567PermutationInString.swift; sourceTree = "<group>"; };
 		AF9C057F24D1441300DB125A /* Q57InsertInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q57InsertInterval.swift; sourceTree = "<group>"; };
 		AF9C058224D148AA00DB125A /* Q14LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AF9C058524D14F6200DB125A /* Q169MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q169MajorityElement.swift; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				AF9782932501EF6300C8C118 /* Q76MinimumWindowSubstring.swift */,
+				AF97829525020E0900C8C118 /* Q567PermutationInString.swift */,
 			);
 			path = sliding_window;
 			sourceTree = "<group>";
@@ -559,6 +562,7 @@
 				AF9C059F24D3F08A00DB125A /* Q26RemoveDuplicatesFromSortedArray.swift in Sources */,
 				AF2936B324FE1C39009B6F9E /* Q678ValidParenthesisString.swift in Sources */,
 				AF9C059C24D3EC4300DB125A /* Q643MaximumAverageSubarrayI.swift in Sources */,
+				AF97829625020E0900C8C118 /* Q567PermutationInString.swift in Sources */,
 				AF9C058624D14F6200DB125A /* Q169MajorityElement.swift in Sources */,
 				AF2936B124FE1AAA009B6F9E /* Q155MinStack.swift in Sources */,
 				AF9C05B124D548A000DB125A /* Q46Permutations.swift in Sources */,
