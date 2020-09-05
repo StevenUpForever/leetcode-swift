@@ -62,12 +62,13 @@ class Q819MostCommonWord: NSObject {
     
     func mostCommonWord(_ paragraph: String, _ banned: [String]) -> String {
         var str = "", maxCount = 0, res = ""
+        var set: Set<String> = Set(banned)
         var map: [String: Int] = [ : ]
         for char in paragraph {
             if char.isLetter {
                 str.append(char.lowercased())
             } else {
-                if !str.isEmpty && !banned.contains(str) {
+                if !str.isEmpty && !set.contains(str) {
                     map[str] = (map[str] ?? 0) + 1
                     if map[str]! > maxCount {
                         maxCount = map[str]!
@@ -77,7 +78,7 @@ class Q819MostCommonWord: NSObject {
                 str = ""
             }
         }
-        if !str.isEmpty && !banned.contains(str) {
+        if !str.isEmpty && !set.contains(str) {
             map[str] = (map[str] ?? 0) + 1
             if map[str]! > maxCount {
                 maxCount = map[str]!
